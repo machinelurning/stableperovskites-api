@@ -4,6 +4,4 @@ python-multipart
 pydantic
 typing_extensions
 loguru
-
-numpy<1.21.0
-tid-regression-model
+/Users/ian/Documents/MachineLearning/road_to_mle/stableperovskites/package/dist/stableperovskites-0.0.7-py3-none-any.whl
