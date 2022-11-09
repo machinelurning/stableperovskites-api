@@ -1,0 +1,9 @@
+uvicorn
+fastapi
+python-multipart
+pydantic
+typing_extensions
+loguru
+
+numpy<1.21.0
+tid-regression-model
