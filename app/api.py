@@ -37,7 +37,6 @@ async def predict(input_data: schemas.MultiplePerovskiteOxideSchema) -> Any:
 
     if results["errors"] is not None:
         logger.warning(f"Prediction validation error: {results.get('errors')}")
-        print(results["errors"])
         raise HTTPException(status_code=400, detail=results["errors"])
 
     results["predictions"] = list(results["predictions"])
