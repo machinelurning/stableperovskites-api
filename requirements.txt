@@ -4,4 +4,4 @@ python-multipart
 pydantic
 typing_extensions
 loguru
-stableperovskites==0.0.8
+stableperovskites==0.0.9
