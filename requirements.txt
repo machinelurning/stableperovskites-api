@@ -4,4 +4,4 @@ python-multipart
 pydantic
 typing_extensions
 loguru
-/Users/ian/Documents/MachineLearning/road_to_mle/stableperovskites/package/dist/stableperovskites-0.0.7-py3-none-any.whl
+stableperovskites==0.0.8
