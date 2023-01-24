@@ -1,4 +1,4 @@
-name: Publish Docker image
+name: Deploy to fly.io
 
 on:
   push:
