@@ -18,7 +18,9 @@ jobs:
       - run: pip install --upgrade pip
       - run: sudo pip install --upgrade pip
       - run: pip install --user tox
-      - run: tox
+      - name: Testing and linting
+        working-directory: ./stableperovskites-api
+        run: tox
   deploy-to-fly:
     name: Deploy app to fly.io
     runs-on: ubuntu-latest
