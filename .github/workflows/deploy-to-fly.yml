@@ -18,7 +18,6 @@ jobs:
       - run: pip install --upgrade pip
       - run: sudo pip install --upgrade pip
       - run: pip install --user tox
-      - run: cd stableperovskites-api
       - run: tox
   deploy-to-fly:
     name: Deploy app to fly.io
