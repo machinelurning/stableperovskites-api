@@ -1,6 +1,6 @@
 # fly.toml file generated for stableperovskite-api on 2023-01-24T12:24:48+08:00
 
-app = "stableperovskites-api"
+app = "stableperovskite-api"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
