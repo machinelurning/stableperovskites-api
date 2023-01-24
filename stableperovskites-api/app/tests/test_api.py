@@ -1,5 +1,3 @@
-import httpx
-
 import numpy as np
 import pandas as pd
 from fastapi.testclient import TestClient

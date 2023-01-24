@@ -1,6 +1,5 @@
 from typing import Generator
 
-import httpx
 import pandas as pd
 import pytest
 from fastapi.testclient import TestClient

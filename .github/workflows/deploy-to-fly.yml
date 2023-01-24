@@ -23,6 +23,7 @@ jobs:
   deploy-to-fly:
     name: Deploy app to fly.io
     runs-on: ubuntu-latest
+    needs: test-lint
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
