@@ -6,6 +6,20 @@ on:
       - v1.*
 
 jobs:
+  test-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - run: python3 -m venv venv
+      - run: source venv/bin/activate
+      - run: pip install --upgrade pip
+      - run: sudo pip install --upgrade pip
+      - run: pip install --user tox
+      - run: cd stableperovskites-api
+      - run: tox
   deploy-to-fly:
     name: Deploy app to fly.io
     runs-on: ubuntu-latest
