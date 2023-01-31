@@ -14,8 +14,8 @@ This repo shows the code for the API for `stableperovskites`. The API is contain
 ## Usage
 You can query the API either via the terminal or in Python code. You only have to supply the following: 
 * Composition: Ba1Sr7V8O24
-* A site molecules: Ba, Sr
-* B site molecules: V
+* A site molecules: Ba, Sr (Maximum of 3)
+* B site molecules: V (Maximum of 3)
 * Number of elements: 4
 
 To query via terminal, you can paste this on your terminal: 
@@ -61,3 +61,5 @@ json_data = {
 
 response = requests.post('https://stableperovskites-api.fly.dev/api/v1/predict', headers=headers, json=json_data)
 ```
+
+The API could handle multiple inputs as well, just send over a list of JSONs as inputs. 
