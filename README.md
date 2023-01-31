@@ -62,4 +62,9 @@ json_data = {
 response = requests.post('https://stableperovskites-api.fly.dev/api/v1/predict', headers=headers, json=json_data)
 ```
 
-The API could handle multiple inputs as well, just send over a list of JSONs as inputs. 
+Both returns a JSON object containing the following information:
+- Errors (if any)
+- Model version
+- Predicted energy above hull or perovskite oxide
+
+The API could handle multiple inputs as well, just send over a list of JSONs as `input`. 
