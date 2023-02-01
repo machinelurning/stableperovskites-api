@@ -20,10 +20,14 @@ This repo shows the code for the API for `stableperovskites`. The API is contain
 
 ## Usage
 You can query the API either via the terminal or in Python code. You only have to supply the following: 
-* Composition: Ba1Sr7V8O24
-* A site molecules: Ba, Sr (Maximum of 3)
-* B site molecules: V (Maximum of 3)
-* Number of elements: 4
+* Composition of the perovskite oxide as a string 
+  * example: Ba1Sr7V8O24
+* A site molecules, encoded as A_SITE_1, A_SITE_2, and A_SITE_3
+  * example: Ba, Sr, etc.
+* B site molecules, encoded as B_SITE_1, B_SITE_2, and B_SITE_3
+  * example: V, etc.
+* Number of elements
+  * example: 4
 
 To query via terminal, you can paste this on your terminal: 
 
