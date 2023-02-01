@@ -16,6 +16,7 @@ This repo shows the code for the API for `stableperovskites`. The API is contain
 * Logging: Loguru
 * Containerization: Docker
 * API Serving: FastAPI
+* Deployment: fly.io
 * CI/CD: GitHub Actions
 
 ## Usage
