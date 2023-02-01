@@ -4,6 +4,7 @@
 
 ## Table of Contents
 * [General Info](#general-information)
+* [Technologies](#technologies)
 * [Usage](#usage)
 
 
