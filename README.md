@@ -10,6 +10,12 @@
 ## General Information
 This repo shows the code for the API for `stableperovskites`. The API is containerized and then deployed automatically to fly.io via GitHub Actions. 
 
+## Technologies
+* Web server: Uvicorn
+* Logging: Loguru
+* Containerization: Docker
+* API Serving: FastAPI
+* CI/CD: GitHub Actions
 
 ## Usage
 You can query the API either via the terminal or in Python code. You only have to supply the following: 
